@@ -1,0 +1,29 @@
+[package]
+name = "plotters-fullerene"
+version = "0.0.1" # change with html_root_url in lib.rs
+edition = "2021"
+authors = ["nomissbowling <nomissbowling@yahoo.co.jp>"]
+
+description = "plotters fullerene and polyhedron for Rust"
+keywords = ["plotters", "c60", "fullerene", "polyhedron", "3D"]
+categories = ["mathematics", "rendering", "science", "graphics"]
+license = "MIT"
+
+documentation = "https://docs.rs/plotters-fullerene/"
+homepage = "https://crates.io/crates/plotters-fullerene"
+repository = "https://github.com/nomissbowling/plotters-fullerene"
+
+readme = "README.md"
+
+#build = "build.rs"
+
+[lib]
+name = "plt_fullerene"
+
+[dependencies]
+polyhedron-faces = { version = "0.3" }
+Fullerene = { version = "0.3" } # "0.3.0"
+
+num = { version = "0.4" } # "0.4.1"
+
+plotters = { version = "0.3.5" } # plotters => font-kit 0.11.0 => freetype 0.7
