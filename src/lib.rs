@@ -1,4 +1,4 @@
-#![doc(html_root_url = "https://docs.rs/plotters-fullerene/0.0.1")]
+#![doc(html_root_url = "https://docs.rs/plotters-fullerene/0.1.1")]
 //! plotters fullerene and polyhedron for Rust
 //!
 

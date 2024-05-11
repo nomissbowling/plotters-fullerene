@@ -1,6 +1,6 @@
 [package]
 name = "plotters-fullerene"
-version = "0.0.1" # change with html_root_url in lib.rs
+version = "0.1.1" # change with html_root_url in lib.rs
 edition = "2021"
 authors = ["nomissbowling <nomissbowling@yahoo.co.jp>"]
 
@@ -22,7 +22,7 @@ name = "plt_fullerene"
 
 [dependencies]
 polyhedron-faces = { version = "0.3" }
-Fullerene = { version = "0.3" } # "0.3.0"
+Fullerene = { version = "0.3" }
 
 num = { version = "0.4" } # "0.4.1"
 
